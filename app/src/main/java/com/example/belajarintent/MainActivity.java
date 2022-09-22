@@ -18,11 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void panggil(View view) {
-        String nomor = "09667347" ;
-        Intent panggil = new Intent(Intent. ACTION_DIAL);
-        panggil.setData(Uri. fromParts("tel",nomor,null));
-        startActivity(panggil);
+
     }
     public void buka(View view) {
         String url = "https://badoystudio.com";
